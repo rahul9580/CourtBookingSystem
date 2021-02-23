@@ -1,0 +1,12 @@
+2021-01-24 15:15:31 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STUDENT" not found; SQL statement:
+select * from student where id=? [42102-200]
+2021-01-24 15:15:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STUDENT" not found; SQL statement:
+select student0_.id as id1_0_0_, student0_.age as age2_0_0_, student0_.email as email3_0_0_, student0_.name as name4_0_0_ from student student0_ where student0_.id=? [42102-200]
+2021-01-25 17:36:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USER" not found; SQL statement:
+select userentity0_.user_id as user_id1_6_0_, userentity0_.address as address2_6_0_, userentity0_.age as age3_6_0_, userentity0_.email as email4_6_0_, userentity0_.user_name as user_nam5_6_0_ from user userentity0_ where userentity0_.user_id=? [42102-200]
+2021-01-25 17:36:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USER" not found; SQL statement:
+insert into user (address, age, email, user_name, user_id) values (?, ?, ?, ?, ?) [42102-200]
